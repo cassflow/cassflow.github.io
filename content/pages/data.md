@@ -1,7 +1,10 @@
 ---
 title: 'Daten'
 url: "/data/"
+layout: data
 ---
+
+[Data2](/data2/)
 
 ## Warum wir eine Datenauswertung machen
 
@@ -19,7 +22,11 @@ Die Ergebnisse unserer Analyse werden durch verschiedene Charts visualisiert, um
 
 Diese Grafik zeigt die geografische Verteilung der referenzierten Personen. Sie bietet einen Überblick darüber, welche Kontinente in den Vorträgen dominieren und ob es eine ausgewogene globale Repräsentation gibt.
 
-Grafik hier einbinden 
+<!-- Create a div where the graph will take place -->
+<button onclick='parseData("gender")'>Gender</button>
+<button onclick='parseData("POB")'>POB</button>
+<input type="checkbox" id="cbAliveOnly">nur lebende Berücksichtigen</input>
+<div id="piedata"></div>
 
 2. Referenzen nach Lebenszeit:
 
@@ -27,4 +34,6 @@ Diese Grafik illustriert die zeitliche Verteilung der referenzierten Personen. S
 
 Diese Auswertungen helfen uns, ein besseres Verständnis für die Referenzierungspraktiken in der marxistischen Kunstwissenschaft zu entwickeln und bieten eine Grundlage für weitere Diskussionen über Diversität und Repräsentanz.
 
-Grafik hier einbinden.
+<div id="histdata"></div>
+
+lala
