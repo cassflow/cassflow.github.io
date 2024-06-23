@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on (De-)Politisierung der Kunstwissenschaft: Marxistische Perspektiven seit 1968</title>
+    <link>//localhost:1313/pages/</link>
+    <description>Recent content in Pages on (De-)Politisierung der Kunstwissenschaft: Marxistische Perspektiven seit 1968</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daten</title>
+      <link>//localhost:1313/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/data/</guid>
+      <description>Warum wir eine Datenauswertung machen Die Konferenz &amp;ldquo;De-Politisierung der Kunstwissenschaft: Marxistische Perspektiven seit 1968&amp;rdquo; bot wertvolle Einblicke in aktuelle marxistische Perspektiven in der Kunstwissenschaft. Um die Diskussionen und Referenzen der Konferenz systematisch zu untersuchen, führen wir eine umfassende Datenauswertung durch. Unser Ziel ist es, die Vielfalt und Repräsentanz der referenzierten Quellen zu beleuchten. Dabei geht es um die Untersuchung von Häufigkeiten, Lebzeiten, Geschlecht, akademischen Graden, Wirkungs- und Geburtsorten der genannten Personen.</description>
+    </item>
+    <item>
+      <title>Die Tagung</title>
+      <link>//localhost:1313/tagung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tagung/</guid>
+      <description>Die Konferenz &amp;quot;(Ent-)Politisierung der Kunstwissenschaft: Marxistische Traditionslinien seit 1968&amp;quot; fand im November 2023 an der Technischen Universität Berlin statt. Unter der Leitung von Sebastian Hammerschmidt, Kaja Ninnis und Charlotte Püttmann, in Kooperation mit Lukas Fuchsgruber von der Technischen Universität Berlin und dem Gerhard Mercator Graduiertenkolleg Weltoffenheit, Toleranz und Gemeinsinn der Universität Duisburg-Essen, widmete sich die Tagung der historischen Entwicklung sowie aktuellen Perspektiven der politischen Dimensionen in der Kunstwissenschaft. Diskutiert wurden theoretische und praktische Fragen, die seit den politischen Umbrüchen von 1968 im deutschsprachigen Raum das Fach prägen.</description>
+    </item>
+  </channel>
+</rss>
