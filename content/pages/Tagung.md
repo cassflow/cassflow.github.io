@@ -7,7 +7,7 @@ Die [Konferenz](https://www.tu.berlin/kuk/veranstaltungen/konferenzen-workshops/
 
 ## Programm
 
-Das Programm der Konferenz finden Sie [hier](/../docs/Programm_EntPolitisierungKunstwissenschaft.pdf)
+[hier](/../docs/Programm_EntPolitisierungKunstwissenschaft.pdf) ist das Programm der Konferenz.
 
 
 

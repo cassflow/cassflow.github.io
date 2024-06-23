@@ -5,4 +5,4 @@ url: "/berichte/"
 
 ## Berichte
 
-Hier finden Sie reflektierende Einblicke und Zusammenfassungen zu den verschiedenen Panels und Diskussionen, die während der Konferenz stattgefunden haben.
+Hier sind reflektierende Einblicke und Zusammenfassungen zu den verschiedenen Panels und Diskussionen, die während der Konferenz stattgefunden haben und von Studierenden der TU Berlin im Rahmen einer Nachbereitung der Konferenz angefertigt wurden.
