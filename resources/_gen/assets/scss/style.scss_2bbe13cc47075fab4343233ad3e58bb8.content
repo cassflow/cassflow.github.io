@@ -287,12 +287,12 @@ ul {
     color: var(--heading-color); }
   .summary .summary-title {
     margin: 16px 0 16px 0;
-    width: 80%;
+    width: 100%;
     font-size: 34px;
     line-height: 38px; }
     @media (min-width: 767px) {
       .summary .summary-title {
-        width: 80%;
+        width: 100%;
         font-size: 52px;
         line-height: 58px; } }
   .summary .summary-description {
