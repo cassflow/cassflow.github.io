@@ -3,9 +3,6 @@ title: 'Daten'
 url: "/data/"
 layout: data
 ---
-
-[Data2](/data2/)
-
 ## Warum wir eine Datenauswertung machen
 
 ![](/images/wordcloud.png)
