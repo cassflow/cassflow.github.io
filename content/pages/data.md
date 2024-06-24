@@ -19,7 +19,7 @@ Aufgrund der Datenverfügbarkeit sind unsere Analysen vorerst auf die Kategorien
 
 ### Gender im Datensatz
 
-Für die Kategorie Geschlecht haben wir uns auf Informationen aus Wikipedia-Einträgen beschränkt, da diese eine eindeutige Geschlechtszuweisung enthalten. Wir sind uns jedoch bewusst, dass diese Zuweisung keine selbstgewählte Bezeichnung darstellt und damit eine gewisse Fremdzuschreibung beinhaltet. Dies stellt einen Kompromiss dar, um diese wichtige Kategorie dennoch abbilden zu können. Personen ohne Wikipedia Eintrag werden in dieser Kategorie nicht erfasst.
+Für die Kategorie Geschlecht haben wir uns auf Informationen aus Wikipedia-Einträgen beschränkt, da diese eine eindeutige Geschlechtszuweisung enthalten. Wir sind uns jedoch bewusst, dass diese Zuweisung keine zuverlässige selbstgewählte Bezeichnung darstellt und eine gewisse Fremdzuschreibung beinhaltet, cis-normative Hegemonien reproduziert und eine eindeutige Zuweisung garnicht immer möglich ist. Dies stellt einen Kompromiss dar, um diese wichtige Kategorie dennoch abbilden zu können. Personen ohne Wikipedia Eintrag werden in dieser Kategorie nicht erfasst. 
 
 ## Visualisierte Daten
 
@@ -27,11 +27,13 @@ Die Ergebnisse unserer Analyse werden durch verschiedene Charts visualisiert, um
 
 1. Referenzen nach Kontinent und nach Gender:
 
-Diese Grafik zeigt die geografische Verteilung der referenzierten Personen. Sie bietet einen Überblick darüber, welche Kontinente in den Vorträgen dominieren und ob es eine ausgewogene globale Repräsentation gibt.
+Diese Grafik zeigt die Verteilung der referenzierten Personen nach Gender.
 
 <!-- Create a div where the graph will take place -->
 <input type="checkbox" id="cbAliveOnly_gender" onClick='parseData("gender")'>nur lebende Berücksichtigen</input>
 <div id="piedata_gender"></div>
+
+Diese Grafik zeigt die geografische Verteilung der referenzierten Personen. Sie bietet einen Überblick darüber, welche Kontinente in den Vorträgen dominieren und ob es eine ausgewogene globale Repräsentation gibt.
 
 <input type="checkbox" id="cbAliveOnly_POB" onClick='parseData("POB")'>nur lebende Berücksichtigen</input>
 <div id="piedata_POB"></div>
