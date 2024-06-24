@@ -1,0 +1,20 @@
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "main" }}
+<div class="intro">
+  <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+  {{ if .Params.image }}
+  <img alt="{{.Params.imageAltAttribute | default "Article hero image"}}" src="{{ .Params.image | relURL }}" />
+  {{ end }}
+</div>
+
+<div class="content">
+  {{ .Content }}
+</div>
+
+<!-- Load d3.js & color scale -->
+<script src="https://d3js.org/d3.v5.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/piedata.js"></script>
+<script src="{{ .Site.BaseURL }}js/histdata.js"></script>
+{{ end }}
