@@ -1,37 +1,44 @@
 // Circular Diagrams
 
-function AliveOnly(){
-    return document.getElementById('cbAliveOnly').checked;
+function aliveOnly(crit){
+  id = "cbAliveOnly_" + crit;
+  console.log(id);
+    return document.getElementById(id).checked;
 }
 
 async function parseData(crit){    
    var data = await d3.csv("/data.csv");
-   console.log(data);
+   var showall = !aliveOnly(crit);
+   data = data.filter(function(row){
+    if(showall || row["alife"] === "1") return row;
+   });
    data = d3.nest()
    .key(function(row) {return row[crit]; })
    .entries(data);
-   console.log(data);
    var data = data.reduce(
        (obj, item) => Object.assign(obj, { [item.key]: item.values.length }), {});
-   console.log(data);
-
-   displayData(data);
+   displayData(data, crit);
 }
 
-function displayData(data){
+function displayData(data, crit){
   
 // set the dimensions and margins of the graph
-var width = 450
+var width = 750
    height = 450
    margin = 40
 
 // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
 var radius = Math.min(width, height) / 2 - margin
 
-d3.select('svg').remove();
 
 // append the svg object to the div called 'my_dataviz'
-var svg = d3.select("#piedata")
+var id = "piedata_" + crit;
+console.log("id:" + id);
+var parentElement = document.getElementById(id);     
+parentElement.innerHTML = "";
+id = "#" + id;
+
+var svg = d3.select(id)
  .append("svg")
    .attr("width", width)
    .attr("height", height)
@@ -109,4 +116,5 @@ svg
    })
 }
 
-parseData("Gender");
+parseData("gender");
+parseData("POB");

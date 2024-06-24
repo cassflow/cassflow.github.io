@@ -1,7 +1,13 @@
+
+// Parse the Data
+ var datacsv = d3.csv("/data.csv");
+ datacsv.then(function(data){ 
+// d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_cleveland.csv", function(data) {
+
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 130},
-    width = 1260 - margin.left - margin.right,
-    height = 800 - margin.top - margin.bottom;
+var margin = {top: 10, right: 30, bottom: 30, left: 130};
+var width = 1200 - margin.left - margin.right;
+var height = 1200 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#histdata")
@@ -12,10 +18,6 @@ var svg = d3.select("#histdata")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-// Parse the Data
- var datacsv = d3.csv("/data.csv");
- datacsv.then(function(data){ 
-// d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_cleveland.csv", function(data) {
 
   // Add X axis
   var x = d3.scaleLinear()
@@ -27,11 +29,12 @@ var svg = d3.select("#histdata")
 
   // Y axis
   var y = d3.scaleBand()
-    .range([ 0, height ])
     .domain(data.map(function(d) { return d.Author; }))
-    .padding(1);
+    .range([ 0, height ])
+    .padding(3);
   svg.append("g")
     .call(d3.axisLeft(y))
+    
 
   // Lines
   svg.selectAll("myline")
