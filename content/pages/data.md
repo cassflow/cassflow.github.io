@@ -19,7 +19,7 @@ Aufgrund der Datenverfügbarkeit sind unsere Analysen vorerst auf die Kategorien
 
 ### Gender im Datensatz
 
-Für die Kategorie Geschlecht haben wir uns auf Informationen aus Wikipedia-Einträgen beschränkt, da diese eine eindeutige Geschlechtszuweisung enthalten. Wir sind uns jedoch bewusst, dass diese Zuweisung keine zuverlässige selbstgewählte Bezeichnung darstellt und eine gewisse Fremdzuschreibung beinhaltet, cis-normative Hegemonien reproduziert und eine eindeutige Zuweisung garnicht immer möglich ist. Dies stellt einen Kompromiss dar, um diese wichtige Kategorie dennoch abbilden zu können. Personen ohne Wikipedia Eintrag werden in dieser Kategorie nicht erfasst. 
+Für die Kategorie Geschlecht haben wir uns auf Informationen aus Wikipedia-Einträgen beschränkt, da diese eine eindeutige Geschlechtszuweisung enthalten. Wir sind uns jedoch bewusst, dass diese Zuweisung keine zuverlässige selbstgewählte Bezeichnung darstellt und eine gewisse Fremdzuschreibung beinhaltet, cis-normative Hegemonien reproduziert und eine eindeutige Zuweisung garnicht immer möglich ist. Dies stellt einen Kompromiss dar, um diese wichtige Kategorie dennoch abbilden zu können. Personen ohne Wikipedia Eintrag sind als N/A gelistet.
 
 ## Visualisierte Daten
 
